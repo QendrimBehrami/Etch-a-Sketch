@@ -26,6 +26,10 @@ function createSketchPad(sketchPadSize) {
       sketchPadElement.style.width = sketchPadElementWidth + "px";
       sketchPadElement.style.height = sketchPadElementHeight + "px";
 
+      sketchPadElement.addEventListener("mouseenter", (event) => {
+        sketchPadElement.style.backgroundColor = hoverColor;
+      });
+
       sketchPadRow.appendChild(sketchPadElement);
     }
   }
