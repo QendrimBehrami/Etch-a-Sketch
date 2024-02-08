@@ -15,6 +15,11 @@ body {
   min-height: 600px;
 }
 
+#dimensionChanger {
+  display: flex;
+  gap: 30px;
+}
+
 .sketchPadRow {
   background-color: white;
   display: flex;
