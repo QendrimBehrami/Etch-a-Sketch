@@ -1,0 +1,25 @@
+body {
+  display: flex;
+  background-color: #1a1b26;
+  color: #ff757f;
+  font-family: cursive;
+  flex-direction: column;
+  align-items: center;
+  gap: 50px;
+}
+
+#sketchPadContainer {
+  display: flex;
+  flex-direction: column;
+  min-width: 600px;
+  min-height: 600px;
+}
+
+.sketchPadRow {
+  background-color: white;
+  display: flex;
+}
+
+.sketchPadElement {
+  border: 1px solid black;
+}
